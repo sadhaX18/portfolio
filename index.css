@@ -36,6 +36,7 @@
 
     --black: #000;
     --pink: #ff3258;
+    --cream: #e3be9b;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -404,8 +405,8 @@ body:not(.user-is-tabbing) a:focus {
 /* --------------------------------------- */
 
 .header {
-    background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+    background: linear-gradient(rgba(0,0,0, .9), rgba(0,0,0, .5)), 
+        url('./images/pride.png');
     height: 100vh;
     background-size: cover;
     background-position: center;
