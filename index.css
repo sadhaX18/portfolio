@@ -76,6 +76,26 @@ body {
     background: var(--black);
     overflow-x: hidden;
 }
+.projects {
+    list-style-type: none;
+    display: inline-flex;
+    flex-flow: wrap;
+    float: left;
+}
+
+.projects li {
+    margin: 0.7em;
+    align-items: center;
+}
+.literature-card {
+    background-color: rgb(36, 35, 35);
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.1);
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
 
 .row {
     max-width: var(--container-max-width);
